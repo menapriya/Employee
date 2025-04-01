@@ -1,0 +1,54 @@
+/* Center the form within the page */
+form {
+  width: 400px; /* Set the width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding inside the form */
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a 3D effect */
+}
+
+/* Center the photo upload section */
+.photo-upload {
+  display: flex;
+  justify-content: center; /* Center the photo preview area */
+  margin-bottom: 20px; /* Space below the photo upload section */
+}
+
+.photo-preview {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border: 2px dashed #ccc; /* Add dashed border */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Style the input fields and buttons */
+input, select, button {
+  width: 100%; /* Make inputs and button take up the full width */
+  padding: 10px;
+  margin-bottom: 15px; /* Add space between fields */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Style for the submit button */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#1e6fe0;
+}

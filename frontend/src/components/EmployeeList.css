@@ -1,0 +1,102 @@
+/* Layout */
+.dashboard-container {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px; /* To avoid overlapping with the sidebar */
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table */
+  .table-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  /* Delete Button */
+  .edit-icon {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    color: #217cf3;
+  }
+  
+  .edit-icon:hover {
+    color: #2d89ff; /* Light blue on hover */
+  }
+  
+  .delete-icon {
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    color:#e94230;
+  }
+  
+  .delete-icon:hover {
+    color: #e74c3c; /* Red on hover */
+  }
+  
+  
+  /* Loading */
+  .loading-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .search-bar {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 40px;
+  }
+  .profile-cell {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
